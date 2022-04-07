@@ -1,0 +1,19 @@
+Website - https://developer.microsoft.com/en-us/graph/graph-explorer
+
+
+POST
+https://graph.microsoft.com/v1.0/sites/<uniqueSharepointName>.sharepoint.com,<uniqueID>/permissions
+
+{
+    "roles": [
+        "write"
+    ],
+    "grantedToIdentities": [
+        {
+            "application": {
+                "id": "<Unique ID>",
+                "displayName": "<Unique Name>"
+            }
+        }
+    ]
+}
