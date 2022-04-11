@@ -23,6 +23,7 @@
 8. Under permissions this should now display Sites.Selected
 
 ![View Permissions](Media/ViewPermissions.png)
+
 9. To give permission for the function app to write to a sharepoint site. Find the function app application id (not object id) by navigating to azure ad > enterprise applications > filter by managed identities> Find function app and select it > Navigate to overview blade.
 10. Visit graph explorer and make sure you have personal access to the sharepoint site you’re trying to find.
 11. In graph explorer, find the link to the appropriate sharepoint group- the link below may be of more use. You’ll need to use the id
