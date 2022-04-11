@@ -1,10 +1,10 @@
 1. Create the function app
 2. Create blob storage (Do this when creating the function app)
 3. Under function app – enable system assigned managed identity
-![Enable Managed Idenity](Media/Enable Managed Identity.png)
+![Enable Managed Idenity](Media/EnableManagedIdentity.png)
 
 4. Within the function app identity tab, click on azure role assignments. Add in role assignments to be able to read from a given resource group. This will require administrator privileges.
-![Enable System Assigned Managed Identity](Media/Enable System Assigned Identity.png)
+![Enable System Assigned Managed Identity](Media/EnableSystemAssignedIdentity.png)
 
 5. To give the function app the ability to be able to receive the ability to write to sharepoint.
    a.	This will require global azure admin rights
@@ -12,7 +12,7 @@
    c.	To check that this has worked as expected.
    d.	Under Azure active directory, navigate to enterprise applications
 
-![Enterprise Apps](Media/Enterprise Apps.png)
+![Enterprise Apps](Media/EnterpriseApps.png)
 
 7. Filter application type = Managed Identities
 ![Managed Identity Filter](Media/ManageIdentities.png)
