@@ -23,3 +23,7 @@ Stop-AzVM -ResourceGroupName $rgName -Name $vmName
 
 #If needed you can restart the VM again
 #Start-AzVM -ResourceGroupName $rsgName -Name $vmName
+
+#If needed you can also run commands on the VM after start up
+#https://docs.microsoft.com/en-us/powershell/module/az.compute/invoke-azvmruncommand?view=azps-7.5.0
+#Invoke-AzVMRunCommand
